@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.logo{
+    width: 6rem;
+    height:3rem;
+}
+
+.bg{
+   background-image: url("images/bgimg.png");
+}
+.btn2{
+    margin-left: 15em;
+}
+.img{
+    height: 40rem;
+    width: 30rem;
+}
+.text1{
+    height: 20rem;
+    width: 30rem;
+
+}
+.under{
+display:flex ;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.bgimg2{
+    background-color: black;
+}
+.page3bg{
+    
+    background-image: url(images/page3.0.jpg);
+    background-size: cover;
+
+
+}
+.page4bg{
+    background-image: url("images/bgimg.png");
+}
+.text-change:hover {
+    color:red;
+}
+.container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  }
